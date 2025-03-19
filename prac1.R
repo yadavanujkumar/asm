@@ -30,7 +30,7 @@ for(i in 1:10000){
     uv<-uv+(oc[j] - sm)^2
   }
   uv<-uv / 10
-  bv <- append(bv,varian)
+  bv <- append(bv,uv)
 }
 
 un <- 0
